@@ -1,0 +1,15 @@
+div article {
+    border: 1px solid black;
+    height: 100px;
+    
+   
+}
+#image-element{
+    display: inline-block; /*Made this inline block to apply borders to fit of image size*/
+    border: 1px solid black;
+    position: relative; /*To osition relative to div article*/
+    top: 50px; /*Half of height of div article style*/
+    transform: translateY(-50%); /*Negative value to move it up-wards relative to Y-axis*/
+    
+}
+    
